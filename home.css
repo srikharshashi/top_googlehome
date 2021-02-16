@@ -1,0 +1,200 @@
+@font-face 
+{
+    font-family: scam;
+    src: url("theprague.ttf");
+  }
+*
+{
+    font-family: scam;
+    margin: 0px;
+    padding: 0px;
+    /* background-color:rgb(24, 26, 27); */
+
+}
+
+main
+{
+    width: 100%;
+    display: grid;
+    grid-template-rows:60px 357px 50px 65px 140px 30px 1fr ;
+    /* header image search buttons foot1 foot 2 */
+}
+header
+{
+    display: grid;
+    grid-template-columns: 1200px 1fr 1fr 1fr 1fr ;
+
+}
+ .imgpos
+ {
+     position: relative;
+
+ }
+
+.imgpos img
+{
+    position: absolute;
+left: 600px;
+top:220px;
+}
+.search
+{
+    position: relative;
+
+}
+.search input
+{
+    position: absolute;
+    left: 471px;
+    margin:9px;
+    position: absolute;
+    width:500px;
+    height: 35px;
+    border-radius: 10px;
+
+}
+
+
+
+.bu 
+{
+    position: relative;
+    text-align: center;
+}
+.bu .but1,.but2
+{
+    position: absolute;
+}
+.but1
+{
+    top:10px;
+    right:830px;
+    height: 40px;
+    width: 100px;
+    text-align: center;
+}
+.but2
+{
+    top:10px;
+    right:700px;
+    height: 40px;
+    width: 100px;
+    text-align: center;
+}
+.but1 a,.but2 a
+{
+    display: block;
+    width: 115px;
+    height: 25px;
+    padding: 5px;
+    text-align: center;
+    border-radius: 5px;
+    color: black;
+}
+header .gmail
+{
+position: relative;
+}
+header .images
+{
+    position: relative;
+}
+header .nav
+{
+    position: relative;
+}
+header  a
+{
+    position: absolute;
+    text-decoration: none;
+    color: black;
+    top:12px;
+    right: 20px;
+    font-size: 30px;
+    padding:3px 5px 3px 3px;
+}
+
+header a:hover
+{
+    background-color: cadetblue;
+}
+.nav img
+{
+    position: absolute;
+    width: 45px;
+    top:9px;
+    left:8px;
+    
+    
+}
+header .signin
+{
+    position: relative;
+    align-items: center;
+}
+header .signin a 
+{
+    position: absolute;
+    border-radius: 8px;
+    padding: 5px 10px   ;
+    background-color: rgb(1, 72, 139);
+    color: aliceblue;
+    font-size: 20px;
+    text-align: center;
+
+}
+header .signin button 
+{
+    display: inline-block;
+    left:20px;
+    text-align: center;
+
+}
+header .signin button :hover
+{
+    border: 1px solid black;
+    background-color: rgb(3, 60, 112);
+}
+.bu
+{
+
+}
+.but1,.but2                                                                                               
+{
+    display: block;
+    border: 1px solid black;
+    
+    
+
+}
+.but1 a,.but2 a
+{
+    text-decoration: none;
+    text-align: center;
+    width: 101px;
+    height: 43px;
+    padding: 10px 5px;
+}
+.foot1
+{
+    border: 1px solid black;
+
+    font-size:30px;
+}
+.foot2
+{
+    border: 1px solid black;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 700px 1fr 1fr 1fr 1fr;
+}
+.foot2 div
+{
+    border: 1px solid black;
+    font-size:30px;
+}
+
+
+
+
+
